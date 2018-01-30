@@ -1,0 +1,13 @@
+C:\Projects\RequestToRestSharp\FiddlerExt\obj\Debug\onSoft.UserControl1.resources
+C:\Projects\RequestToRestSharp\FiddlerExt\obj\Debug\onTawafConfig.csproj.GenerateResource.Cache
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\Fiddler.exe
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\Telerik.Analytics.dll
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\Xceed.Zip.v5.4.dll
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\Xceed.FileSystem.v5.4.dll
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\Xceed.Compression.Formats.v5.4.dll
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\Xceed.Compression.v5.4.dll
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\Fiddler.pdb
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\onTawafConfig.dll
+C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\onTawafConfig.pdb
+C:\Projects\RequestToRestSharp\FiddlerExt\obj\Debug\onTawafConfig.dll
+C:\Projects\RequestToRestSharp\FiddlerExt\obj\Debug\onTawafConfig.pdb
