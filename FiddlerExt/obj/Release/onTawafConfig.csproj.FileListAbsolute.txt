@@ -7,7 +7,6 @@ C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Xceed.FileSystem.v5.4.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Xceed.Compression.Formats.v5.4.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Xceed.Compression.v5.4.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Fiddler.pdb
-C:\Projects\onTawafConfig\FiddlerExt\obj\Release\onTawafConfig.csprojResolveAssemblyReference.cache
 C:\Projects\onTawafConfig\FiddlerExt\obj\Release\onSoft.UserControl1.resources
 C:\Projects\onTawafConfig\FiddlerExt\obj\Release\onTawafConfig.csproj.GenerateResource.Cache
 C:\Projects\onTawafConfig\FiddlerExt\obj\Release\onTawafConfig.dll

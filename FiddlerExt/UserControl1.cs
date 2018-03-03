@@ -20,14 +20,25 @@ namespace onSoft
             _sessionsData = ((Session[]) e.Data.GetData("Fiddler.Session[]"));
 
             var tawafConfig = GenerateCode(_sessionsData);
-            dfsThirtyTwoCode.Text = tawafConfig["ThirtyTwoCode"];
-            dfsRep_Mofa_Wrapper.Text = tawafConfig["Rep_Mofa_Wrapper"];
-            dfsV_Mut_Groups_Wrapper.Text = tawafConfig["V_Mut_Groups_Wrapper"];
-            dfsRep_Mofa_BoxVer.Text = tawafConfig["Rep_Mofa_BoxVer"];
-            dfsv_Mut_Groups_CodeToGetGroups.Text = tawafConfig["v_Mut_Groups_CodeToGetGroups"];
-            dfsjavautilArrayList.Text = tawafConfig["javautilArrayList"];
-            dfsjavalangString.Text = tawafConfig["javalangString"];
+            dfsThirtyTwoCode.Text = tawafConfig.ContainsKey("ThirtyTwoCode") ? tawafConfig["ThirtyTwoCode"] : string.Empty;
+            dfsRep_Mofa_Wrapper.Text = tawafConfig.ContainsKey("Rep_Mofa_Wrapper") ? tawafConfig["Rep_Mofa_Wrapper"] : string.Empty;
+            dfsV_Mut_Groups_Wrapper.Text = tawafConfig.ContainsKey("V_Mut_Groups_Wrapper") ? tawafConfig["V_Mut_Groups_Wrapper"] : string.Empty;
+            dfsRep_Mofa_BoxVer.Text = tawafConfig.ContainsKey("Rep_Mofa_BoxVer") ? tawafConfig["Rep_Mofa_BoxVer"] : string.Empty;
+            dfsv_Mut_Groups_CodeToGetGroups.Text = tawafConfig.ContainsKey("v_Mut_Groups_CodeToGetGroups") ? tawafConfig["v_Mut_Groups_CodeToGetGroups"] : string.Empty;
+            dfsjavautilArrayList.Text = tawafConfig.ContainsKey("javautilArrayList") ? tawafConfig["javautilArrayList"] : string.Empty;
+            dfsjavalangString.Text = tawafConfig.ContainsKey("javalangString") ? tawafConfig["javalangString"] : string.Empty;
 
+
+
+            dfsSQL.Text = "Update [dbo].[TawafConfig] set IsEnabled = 0;" + Environment.NewLine +
+                " INSERT INTO [dbo].[TawafConfig] ([ThirtyTwoCode],[Rep_Mofa_Wrapper],[V_Mut_Groups_Wrapper],[Rep_Mofa_BoxVer],[v_Mut_Groups_CodeToGetGroups],[IsEnabled],[javautilArrayList],[javalangString]) VALUES ('" +
+                dfsThirtyTwoCode.Text + "','" +
+dfsRep_Mofa_Wrapper.Text + "','" +
+dfsV_Mut_Groups_Wrapper.Text + "','" +
+dfsRep_Mofa_BoxVer.Text + "','" +
+dfsv_Mut_Groups_CodeToGetGroups.Text + "',1,'" +
+dfsjavautilArrayList.Text + "','" +
+dfsjavalangString.Text + "');";
 
 
 

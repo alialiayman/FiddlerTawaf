@@ -11,3 +11,9 @@ C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\onTawafConfig.dll
 C:\Projects\RequestToRestSharp\FiddlerExt\bin\Debug\onTawafConfig.pdb
 C:\Projects\RequestToRestSharp\FiddlerExt\obj\Debug\onTawafConfig.dll
 C:\Projects\RequestToRestSharp\FiddlerExt\obj\Debug\onTawafConfig.pdb
+C:\Projects\onTawafConfig\FiddlerExt\bin\Debug\onTawafConfig.dll
+C:\Projects\onTawafConfig\FiddlerExt\bin\Debug\onTawafConfig.pdb
+C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onSoft.UserControl1.resources
+C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.csproj.GenerateResource.Cache
+C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.dll
+C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.pdb

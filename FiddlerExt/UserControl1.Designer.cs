@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.dfsjavalangString = new System.Windows.Forms.TextBox();
@@ -46,22 +45,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dfsThirtyTwoCode = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.dfsSQL = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(247, 329);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(430, 23);
-            this.btnSave.TabIndex = 2;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnCopyCode_Click);
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.dfsSQL);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.dfsjavalangString);
             this.panel1.Controls.Add(this.label6);
@@ -76,7 +67,6 @@
             this.panel1.Controls.Add(this.dfsRep_Mofa_Wrapper);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.dfsThirtyTwoCode);
-            this.panel1.Controls.Add(this.btnSave);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -195,6 +185,14 @@
             this.dfsThirtyTwoCode.Size = new System.Drawing.Size(430, 20);
             this.dfsThirtyTwoCode.TabIndex = 3;
             // 
+            // dfsSQL
+            // 
+            this.dfsSQL.Location = new System.Drawing.Point(49, 359);
+            this.dfsSQL.Multiline = true;
+            this.dfsSQL.Name = "dfsSQL";
+            this.dfsSQL.Size = new System.Drawing.Size(628, 144);
+            this.dfsSQL.TabIndex = 21;
+            // 
             // UserControl1
             // 
             this.AllowDrop = true;
@@ -214,7 +212,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox dfsThirtyTwoCode;
         private System.Windows.Forms.Label label3;
@@ -231,5 +228,6 @@
         private System.Windows.Forms.TextBox dfsV_Mut_Groups_Wrapper;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox dfsRep_Mofa_Wrapper;
+        private System.Windows.Forms.TextBox dfsSQL;
     }
 }
