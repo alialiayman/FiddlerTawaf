@@ -104,11 +104,6 @@ C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Xml.XmlDocument.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Xml.XmlSerializer.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Xml.XPath.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Xml.XPath.XDocument.dll
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.Design.dll
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.dll
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.Extensions.Caching.Memory.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -130,11 +125,6 @@ C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Interactive.Async.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Memory.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Numerics.Vectors.dll
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.xml
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.Abstractions.xml
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.Design.xml
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.Relational.xml
-C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.EntityFrameworkCore.SqlServer.xml
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.Extensions.Caching.Abstractions.xml
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.Extensions.Caching.Memory.xml
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\Microsoft.Extensions.Configuration.xml
@@ -155,3 +145,4 @@ C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Memory.xml
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Numerics.Vectors.xml
 C:\Projects\onTawafConfig\FiddlerExt\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
 C:\Projects\onTawafConfig\FiddlerExt\obj\Release\onTawafConfig.dll.config
+C:\Projects\onTawafConfig\FiddlerExt\obj\Release\onTawafConfig.csprojAssemblyReference.cache

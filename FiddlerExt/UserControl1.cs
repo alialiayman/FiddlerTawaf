@@ -73,31 +73,6 @@ dfsjavalangString.Text + "');";
             
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            using (var dc = new onsoftContext())
-            {
-                dc.ConnectionString = dc.ConnectionString.Replace("{username}", dfsUserName.Text).Replace("{password}", dfsPassword.Text);
-                var enabledConfigs = dc.TawafConfigs.Where(x=> x.IsEnabled == true).ToList();
-                enabledConfigs.ForEach(x => x.IsEnabled = false);
-                var newTawafConfig = new TawafConfig
-                {
-                    IsEnabled = true,
-                    JavalangString = dfsjavalangString.Text,
-                    JavautilArrayList = dfsjavautilArrayList.Text,
-                    RepMofaBoxVer = dfsRep_Mofa_BoxVer.Text,
-                    RepMofaWrapper = dfsRep_Mofa_Wrapper.Text,
-                   ThirtyTwoCode = dfsThirtyTwoCode.Text,
-                   VMutGroupsCodeToGetGroups = dfsv_Mut_Groups_CodeToGetGroups.Text,
-                  VMutGroupsWrapper = dfsV_Mut_Groups_Wrapper.Text 
-                };
 
-                dc.TawafConfigs.Add(newTawafConfig);
-
-                dc.SaveChanges();
-                dfsInfoMessage.Text = "new Config = " + newTawafConfig.TawafId;
-
-            }
-        }
     }
 }
