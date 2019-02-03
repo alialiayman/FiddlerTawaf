@@ -17,3 +17,6 @@ C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onSoft.UserControl1.resources
 C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.csproj.GenerateResource.Cache
 C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.dll
 C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.pdb
+C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.csprojAssemblyReference.cache
+C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.csproj.CoreCompileInputs.cache
+C:\Projects\onTawafConfig\FiddlerExt\obj\Debug\onTawafConfig.csproj.CopyComplete
